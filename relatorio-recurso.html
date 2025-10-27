@@ -1,0 +1,110 @@
+
+<hr>
+<h2>Acompanhamento de Recursos</h2>
+
+<p>
+  Nesta seção você pode acompanhar o uso dos recursos destinados aos projetos da ONG VerdeVida.
+  As informações abaixo representam um resumo do investimento e da aplicação em cada iniciativa.
+</p>
+
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+  <thead>
+    <tr>
+       <style>
+    *{box-sizing:border-box}body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background-color:#f6fff6;color:#333;line-height:1.6}header{background-color:#2e8b57;color:#fff;text-align:center;padding:20px 10px}header h1{margin:0;font-size:1.8em}nav{margin-top:10px}nav a{display:block;color:#fff;text-decoration:none;padding:10px;border-top:1px solid #ffffff33}nav a:hover{background-color:#256b45}main{padding:15px}section{margin-bottom:40px}h2{color:#256b45;border-left:4px solid #256b45;padding-left:8px}h3{color:#388e3c}a{color:#1b5e20}a:hover{text-decoration:underline}.cards{display:flex;flex-direction:column;gap:20px}.card{background-color:#fff;padding:10px;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,.1)}.card img,.galeria img,.galeria iframe{width:100%;height:200px;object-fit:cover;border-radius:10px}.galeria{display:flex;flex-direction:column;gap:10px}table{width:100%;border-collapse:collapse}table th,table td{border:1px solid #ccc;padding:8px;text-align:left}table th{background-color:#e6f3ea}form{background-color:#fff;padding:15px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.1)}input,select,textarea{width:100%;padding:8px;margin-top:5px;margin-bottom:15px;border:1px solid #bbb;border-radius:4px}input[type="submit"],input[type="reset"],a.botao{background-color:#2e8b57;color:#fff;border:none;padding:10px;border-radius:6px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}input[type="submit"]:hover,a.botao:hover{background-color:#256b45}footer{background-color:#2e8b57;color:#fff;text-align:center;padding:15px;font-size:.9em}.botoes-voluntario a,.botoes-doacao a{display:inline-block;background-color:#43a047;color:#fff;padding:10px 15px;border-radius:8px;text-decoration:none}.botoes-voluntario a:hover,.botoes-doacao a:hover{background-color:#2e7d32}@media(min-width:600px){nav a{display:inline-block;margin:5px;border:none}.cards{flex-direction:row;flex-wrap:wrap;justify-content:space-between}.card{width:48%}.galeria{flex-direction:row;flex-wrap:wrap}.galeria img,.galeria iframe{width:48%}}@media(min-width:992px){body{max-width:1200px;margin:0 auto}header h1{font-size:2em}nav a{font-size:1em}.card{width:30%}.galeria img,.galeria iframe{width:30%}form{width:70%;margin:auto}}
+  </style>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <th>Projeto</th>
+      <th>Tipo de Recurso</th>
+      <th>Descrição</th>
+      <th>Valor (R$)</th>
+      <th>Status de Utilização</th>
+      <th>Data de Atualização</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reflorestamento</td>
+      <td>Financeiro</td>
+      <td>Compra de mudas e ferramentas</td>
+      <td>8.500,00</td>
+      <td>Em andamento</td>
+      <td>20/10/2025</td>
+    </tr>
+    <tr>
+      <td>Reflorestamento</td>
+      <td>Humano</td>
+      <td>Horas de trabalho voluntário (45 pessoas)</td>
+      <td>—</td>
+      <td>Concluído</td>
+      <td>18/10/2025</td>
+    </tr>
+    <tr>
+      <td>Educação Ambiental</td>
+      <td>Financeiro</td>
+      <td>Materiais didáticos e transporte</td>
+      <td>3.200,00</td>
+      <td>Em andamento</td>
+      <td>21/10/2025</td>
+    </tr>
+    <tr>
+      <td>Educação Ambiental</td>
+      <td>Material</td>
+      <td>Kits de reciclagem para escolas</td>
+      <td>1.750,00</td>
+      <td>Planejado</td>
+      <td>22/10/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  <strong>Total aplicado até o momento:</strong> R$ 13.450,00
+</p>
+
+<hr>
+
+<h3>Registrar Novo Recurso</h3>
+<p>Preencha o formulário abaixo para adicionar uma nova entrada de recurso:</p>
+
+<form action="#" method="post">
+  <label for="projeto">Projeto:</label><br>
+  <select id="projeto" name="projeto" required>
+    <option value="">Selecione...</option>
+    <option value="Reflorestamento">Reflorestamento</option>
+    <option value="Educação Ambiental">Educação Ambiental</option>
+    <option value="Reciclagem">Reciclagem</option>
+  </select><br><br>
+
+  <label for="tipo">Tipo de Recurso:</label><br>
+  <select id="tipo" name="tipo" required>
+    <option value="">Selecione...</option>
+    <option value="Financeiro">Financeiro</option>
+    <option value="Material">Material</option>
+    <option value="Humano">Humano</option>
+  </select><br><br>
+
+  <label for="descricao">Descrição:</label><br>
+  <textarea id="descricao" name="descricao" rows="3" cols="40" required></textarea><br><br>
+
+  <label for="valor">Valor (R$):</label><br>
+  <input type="number" id="valor" name="valor" step="0.01" placeholder="Ex: 1200.00"><br><br>
+
+  <label for="status">Status de Utilização:</label><br>
+  <select id="status" name="status" required>
+    <option value="">Selecione...</option>
+    <option value="Planejado">Planejado</option>
+    <option value="Em andamento">Em andamento</option>
+    <option value="Concluído">Concluído</option>
+  </select><br><br>
+
+  <label for="data">Data de Atualização:</label><br>
+  <input type="date" id="data" name="data" required><br><br>
+
+  <input type="submit" value="Registrar Recurso">
+</form>
+
+<hr>

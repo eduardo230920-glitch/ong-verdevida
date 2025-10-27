@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos - ONG VerdeVida</title>
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <style>
+    *{box-sizing:border-box}body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background-color:#f6fff6;color:#333;line-height:1.6}header{background-color:#2e8b57;color:#fff;text-align:center;padding:20px 10px}header h1{margin:0;font-size:1.8em}nav{margin-top:10px}nav a{display:block;color:#fff;text-decoration:none;padding:10px;border-top:1px solid #ffffff33}nav a:hover{background-color:#256b45}main{padding:15px}section{margin-bottom:40px}h2{color:#256b45;border-left:4px solid #256b45;padding-left:8px}h3{color:#388e3c}a{color:#1b5e20}a:hover{text-decoration:underline}.cards{display:flex;flex-direction:column;gap:20px}.card{background-color:#fff;padding:10px;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,.1)}.card img,.galeria img,.galeria iframe{width:100%;height:200px;object-fit:cover;border-radius:10px}.galeria{display:flex;flex-direction:column;gap:10px}table{width:100%;border-collapse:collapse}table th,table td{border:1px solid #ccc;padding:8px;text-align:left}table th{background-color:#e6f3ea}form{background-color:#fff;padding:15px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.1)}input,select,textarea{width:100%;padding:8px;margin-top:5px;margin-bottom:15px;border:1px solid #bbb;border-radius:4px}input[type="submit"],input[type="reset"],a.botao{background-color:#2e8b57;color:#fff;border:none;padding:10px;border-radius:6px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}input[type="submit"]:hover,a.botao:hover{background-color:#256b45}footer{background-color:#2e8b57;color:#fff;text-align:center;padding:15px;font-size:.9em}.botoes-voluntario a,.botoes-doacao a{display:inline-block;background-color:#43a047;color:#fff;padding:10px 15px;border-radius:8px;text-decoration:none}.botoes-voluntario a:hover,.botoes-doacao a:hover{background-color:#2e7d32}@media(min-width:600px){nav a{display:inline-block;margin:5px;border:none}.cards{flex-direction:row;flex-wrap:wrap;justify-content:space-between}.card{width:48%}.galeria{flex-direction:row;flex-wrap:wrap}.galeria img,.galeria iframe{width:48%}}@media(min-width:992px){body{max-width:1200px;margin:0 auto}header h1{font-size:2em}nav a{font-size:1em}.card{width:30%}.galeria img,.galeria iframe{width:30%}form{width:70%;margin:auto}}
+  
+  </style>
+  
+<link rel="stylesheet" href="css/projetos.css">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+
+  <h1>🌿 ONG VerdeVida</h1>
+
+  <nav>
+    <a href="index.html">Início</a> 
+    <a href="cadastro.html">Seja Voluntário</a>
+  </nav>
+
+  <h2>Nossos Projetos</h2>
+
+  <h3>Categorias de Projetos</h3>
+  <p>As iniciativas da ONG VerdeVida estão organizadas em diferentes áreas de atuação:</p>
+  <ul>
+    <li><strong>🌱 Reflorestamento:</strong> projetos voltados à restauração de áreas degradadas.</li>
+    <li><strong>📘 Educação Ambiental:</strong> ações educativas em escolas e comunidades.</li>
+  </ul>
+
+  <hr>
+
+  <h3>Projetos em Andamento</h3>
+
+  <h4>Reflorestamento</h4>
+  
+  <p>Plantamos árvores nativas e restauramos ecossistemas em áreas degradadas, com apoio de voluntários e parcerias locais.</p>
+
+  <p><strong>Indicadores de Impacto:</strong></p>
+  <ul>
+    <li>12.000 árvores plantadas</li>
+    <li>8 hectares restaurados</li>
+    <li>320 voluntários envolvidos</li>
+  </ul>
+
+  <p><strong>Resultados Alcançados:</strong></p>
+  <p>Redução de 25% da erosão nas áreas reflorestadas e aumento da biodiversidade local em 15%.</p>
+
+  <hr>
+
+  <h4>Educação Ambiental</h4>
+  <p>Promovemos oficinas, palestras e ações educativas sobre sustentabilidade e conservação.</p>
+
+  <p><strong>Indicadores de Impacto:</strong></p>
+  <ul>
+    <li>45 escolas participantes</li>
+    <li>2.500 alunos alcançados</li>
+    <li>120 oficinas realizadas</li>
+  </ul>
+
+  <p><strong>Resultados Alcançados:</strong></p>
+  <p>Aumento de 40% na adoção de práticas sustentáveis entre alunos e professores.</p>
+
+  <hr>
+
+  <h3>Cadastro de Novos Projetos</h3>
+  <p>Preencha o formulário abaixo para cadastrar novos projetos sociais e acompanhar seus indicadores.</p>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Informações do Projeto</legend>
+
+      <label for="nomeProjeto">Nome do Projeto:</label><br>
+      <input type="text" id="nomeProjeto" name="nomeProjeto" required><br><br>
+
+      <label for="categoria">Categoria:</label><br>
+      <select id="categoria" name="categoria" required>
+        <option value="">Selecione...</option>
+        <option value="reflorestamento">Reflorestamento</option>
+        <option value="educacao">Educação Ambiental</option>
+        <option value="reciclagem">Reciclagem</option>
+        <option value="outros">Outros</option>
+      </select><br><br>
+
+      <label for="descricao">Descrição:</label><br>
+      <textarea id="descricao" name="descricao" rows="4" cols="40" required></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Indicadores e Resultados</legend>
+
+      <label for="impacto">Indicadores de Impacto:</label><br>
+      <textarea id="impacto" name="impacto" rows="3" cols="40" required></textarea><br><br>
+
+      <label for="resultados">Resultados Alcançados:</label><br>
+      <textarea id="resultados" name="resultados" rows="3" cols="40" required></textarea>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Cadastrar Projeto">
+  </form>
+
+  <hr>
+
+  <hr>
+
+  <h3>Galeria de Fotos e Vídeos</h3>
+  <p>Confira alguns momentos dos nossos projetos:</p>
+
+  <img src="img/floresta.avif" alt="Plantio de Árvores" width="300"><br>
+  <img src="img/amigos.avif" alt="Oficina Educativa" width="300"><br><br>
+
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/ABzDOSQkhTM" title="Imagens da Natureza" frameborder="0" allowfullscreen></iframe><br>
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/6owNUyDlHVg" title="Paisagens Naturais" frameborder="0" allowfullscreen></iframe>
+
+  <hr>
+
+  
+  <hr>
+
+  <p><a href="index.html">⬅ Voltar à Página Inicial</a></p>
+
+  <footer>
+    <p>© 2025 ONG VerdeVida | Construindo um futuro mais verde 🌎</p>
+  </footer>
+<script src="js/projetos.js" defer></script>
+
+</body>
+
+</html>
